@@ -6,7 +6,7 @@ CREATE TABLE contact (
 
 CREATE TABLE passenger (
 	id_passenger SERIAL PRIMARY KEY NOT NULL,
-	firt_name VARCHAR(45) NOT NULL,
+	first_name VARCHAR(45) NOT NULL,
 	surname VARCHAR(45) NOT NULL,
 	id_contact INT NOT NULL,
 	FOREIGN KEY (id_contact) REFERENCES contact
