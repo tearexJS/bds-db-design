@@ -33,7 +33,7 @@ CREATE TABLE passenger_has_addres(
 );
 CREATE TABLE employee_type(
 	id_employee_type SERIAL PRIMARY KEY NOT NULL,
-	possition VARCHAR(45) NOT NULL
+	position VARCHAR(45) NOT NULL
 );
 CREATE TABLE employee(
 	id_employee SERIAL PRIMARY KEY NOT NULL,
@@ -46,7 +46,7 @@ CREATE TABLE employee(
 );
 CREATE TABLE salary(
 	id_salary SERIAL PRIMARY KEY NOT NULL,
-	salary VARCHAR(45) NOT NULL,
+	salary FLOAT NOT NULL,
 	paid_at TIMESTAMP[5] NOT NULL,
 	primary_account_number VARCHAR(45) NOT NULL,
 	id_employee INT NOT NULL,
