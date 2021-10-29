@@ -47,7 +47,7 @@ CREATE TABLE employee(
 CREATE TABLE salary(
 	id_salary SERIAL PRIMARY KEY NOT NULL,
 	salary FLOAT NOT NULL,
-	paid_at TIMESTAMP[5] NOT NULL,
+	paid_at TIMESTAMP[3] NOT NULL,
 	primary_account_number VARCHAR(45) NOT NULL,
 	id_employee INT NOT NULL,
 	FOREIGN KEY (id_employee) REFERENCES employee
