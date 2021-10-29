@@ -6,7 +6,9 @@ CREATE TABLE contact (
 
 CREATE TABLE passenger (
 	id_passenger SERIAL PRIMARY KEY NOT NULL,
-	firt_name VARCHAR(45) NOT NULL,
+
+	first_name VARCHAR(45) NOT NULL,
+
 	surname VARCHAR(45) NOT NULL,
 	id_contact INT NOT NULL,
 	FOREIGN KEY (id_contact) REFERENCES contact
@@ -33,7 +35,7 @@ CREATE TABLE passenger_has_addres(
 );
 CREATE TABLE employee_type(
 	id_employee_type SERIAL PRIMARY KEY NOT NULL,
-	possition VARCHAR(45) NOT NULL
+	position VARCHAR(45) NOT NULL
 );
 CREATE TABLE employee(
 	id_employee SERIAL PRIMARY KEY NOT NULL,
@@ -46,8 +48,9 @@ CREATE TABLE employee(
 );
 CREATE TABLE salary(
 	id_salary SERIAL PRIMARY KEY NOT NULL,
-	salary VARCHAR(45) NOT NULL,
-	paid_at TIMESTAMP[5] NOT NULL,
+
+	salary FLOAT NOT NULL,
+	paid_at TIMESTAMP[3] NOT NULL,
 	primary_account_number VARCHAR(45) NOT NULL,
 	id_employee INT NOT NULL,
 	FOREIGN KEY (id_employee) REFERENCES employee
