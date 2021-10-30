@@ -25,7 +25,7 @@ CREATE TABLE address(
 	house_number VARCHAR(45),
 	postal_code VARCHAR(45)
 );
-CREATE TABLE passenger_has_addres(
+CREATE TABLE passenger_has_address(
 	id_address INT NOT NULL,
 	id_passenger INT NOT NULL,
 	FOREIGN KEY (id_address) REFERENCES address,
@@ -47,7 +47,7 @@ CREATE TABLE employee(
 CREATE TABLE salary(
 	id_salary SERIAL PRIMARY KEY NOT NULL,
 	salary FLOAT NOT NULL,
-	paid_at TIMESTAMP[3] NOT NULL,
+	paid_at DATE NOT NULL,
 	primary_account_number VARCHAR(45) NOT NULL,
 	id_employee INT NOT NULL,
 	FOREIGN KEY (id_employee) REFERENCES employee
