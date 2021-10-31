@@ -48,4 +48,4 @@ INSERT INTO passenger(first_name, surname, id_contact) VALUES ('Simone', 'Keith'
 INSERT INTO passenger(first_name, surname, id_contact) VALUES ('Jean', 'Stewart', 48);
 INSERT INTO passenger(first_name, surname, id_contact) VALUES ('Truman', 'Fontenot', 49);
 INSERT INTO passenger(first_name, surname, id_contact) VALUES ('Jean', 'Quintanilla', 50);
-INSERT INTO passenger(first_name, surname, id_contact) VALUES ('Gary', 'Quintanilla', 51);
+INSERT INTO passenger(first_name, surname, id_contact) VALUES ('Gary', 'Quintanalla', 51);

@@ -47,4 +47,5 @@ INSERT INTO contact (phone_number, email) VALUES ('09942954434', 'Frank.Mouton@g
 INSERT INTO contact (phone_number, email) VALUES ('09255277837', 'Simone.Keith@gmail.com');
 INSERT INTO contact (phone_number, email) VALUES ('09845244194', 'Jean.Stewart@gmail.com');
 INSERT INTO contact (phone_number, email) VALUES ('09690107694', 'Truman.Fontenot@gmail.com');
-INSERT INTO contact (phone_number, email) VALUES ('09063595025', 'Gary.Quintanilla@gmail.com');
+INSERT INTO contact (phone_number, email) VALUES ('09063595025', 'Jean.Quintanilla@gmail.com');
+INSERT INTO contact (phone_number, email) VALUES ('09063597025', 'Gary.Quintanalla@gmail.com');
