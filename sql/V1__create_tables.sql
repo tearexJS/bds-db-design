@@ -40,7 +40,7 @@ CREATE TABLE employee(
 	first_name VARCHAR(45) NOT NULL,
 	surname VARCHAR(45) NOT NULL,
     email VARCHAR(255) NOT NULL,
-    password VARCHAR(45) NOT NULL,
+    password VARCHAR(255) NOT NULL,
 	id_employee_type INT NOT NULL,
 	FOREIGN KEY (id_employee_type) REFERENCES employee_type (id_employee_type)
 );
